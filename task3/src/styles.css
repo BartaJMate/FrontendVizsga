@@ -1,0 +1,104 @@
+html {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.title {
+    margin-left: 0.25rem;
+    font-size: 2rem;
+    color: #e53935;
+}
+
+.menu a {
+    color:#e53935;
+    text-decoration: none;
+}
+.menu {
+    display:flex;
+    gap: 1rem;
+}
+
+
+
+@media (max-width: 620px) {
+.main-nav {
+    display: none;
+}
+}
+
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media (max-width: 620px) {
+    .movies {
+        justify-content: center;
+    }
+}
+
+
+.movie-card {
+    width: 300px;
+    border: 2px solid #dee2e6;
+    border-radius: 0.5rem;
+}
+
+.movie-card img {
+    width: 300px;
+    height: 200px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.movie-title {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+
+
+.site-footer p {
+    font-style: italic;
+    font-size: 0.75rem;
+}
+.site-footer {
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
